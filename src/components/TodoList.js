@@ -20,7 +20,7 @@ const TodoList = ({ todos, allIds }) => {
  
   return(<div>
     {/* <h3>Friends</h3> */}
-    {/* {!!(allIds && allIds.length) && <Search />} */}
+    {!!(allIds && allIds.length) && <Search />}
     <ul className="todo-list">
       {todos && todos.length
         ? todos.map((todo, index) => {
